@@ -1,56 +1,90 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 💜 CaBank
 
-## Get started
+### Calculadora de juros com carinho de amigo
 
-1. Install dependencies
+*Carol + Banco = CaBank*
 
-   ```bash
-   npm install
-   ```
+![React Native](https://img.shields.io/badge/React_Native-Expo-7C1FD8?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5A12A3?style=for-the-badge&logo=typescript&logoColor=white)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-00C86F?style=for-the-badge)
 
-2. Start the app
+</div>
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📱 Sobre o projeto
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O **CaBank** é um app mobile que calcula quanto uma pessoa deve te pagar quando você empresta dinheiro — e o juro varia de acordo com **o quão amiga** essa pessoa é de você. Quanto mais próxima a relação, menor a taxa; quanto mais desconhecida, maior o risco (e o juro).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Desenvolvido como atividade individual da disciplina **Programação de App**, com o visual inspirado no estilo clean e roxo do Nubank.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ✨ Funcionalidades
+
+- 💰 Campo para informar o valor emprestado
+- 🤝 Seleção do nível de amizade da pessoa, cada um com uma taxa diferente:
+  | Relação | Taxa |
+  |---|---|
+  | Melhor amigo | 0% |
+  | Amigo | 5% |
+  | Colega | 10% |
+  | Desconhecido | 25% |
+- 🔘 Opção de arredondar o valor final
+- 🧮 Cálculo instantâneo do valor a receber
+- 🎨 Interface própria, com identidade visual CaBank
+
+---
+
+## 🎨 Paleta de cores
+
+<div align="center">
+
+| | Cor | Hex |
+|---|---|---|
+| 🟪 | Roxo principal | `#7C1FD8` |
+| 🟣 | Roxo escuro | `#5A12A3` |
+| 💜 | Lilás de destaque | `#B47CFF` |
+| 🟢 | Verde de sucesso | `#00C86F` |
+
+</div>
+
+---
+
+## 🛠️ Tecnologias
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/) + Expo Router
+- TypeScript
+
+---
+
+## 🚀 Como rodar o projeto
 
 ```bash
-npm run reset-project
+# clonar o repositório
+git clone https://github.com/carolinelima735/app_juros.git
+
+# entrar na pasta
+cd app_juros
+
+# instalar as dependências
+npm install
+
+# rodar o projeto
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Depois é só escanear o QR code com o app **Expo Go** no celular, ou apertar `a` no terminal para abrir no emulador Android.
 
-### Other setup steps
+---
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## 👩‍💻 Autora
 
-## Learn more
+Desenvolvido por **Caroline Lima** para a disciplina de Programação de App.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<div align="center">
+made with 💜
+</div>
